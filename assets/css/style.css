@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+.slider{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+}
+.area-conteudo{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../img/bg/bg.jpg');
+}
+.conteudo-img{
+    width:400px;
+    height:90vh;
+}
+.conteudo-img img{
+    width: 450px;
+    margin-top: -60px;
+}
+
+
+.conteudo-texto{
+    flex: 1;
+    height: 90vh;
+}
+.texto-menu{
+    width:100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu{
+    width:500px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu nav ul{
+    display: flex;
+    align-items: center;
+}
+.menu nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 19px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+}
+.menu nav ul li:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.texto-menu img{
+    width: 100px;
+    padding-right: 15px;
+}
+
+
+.conteudo-nome{
+    width: 100%;
+    height:200px;
+}
+.conteudo-nome h1{
+    margin: 0px;
+    color:#fff;
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.conteudo-descri{
+    width:100%;
+    height:160px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.descri-texto{
+    width: 750px;
+    height:160px;
+    display: flex;
+    align-items: center;
+}
+.descri-texto p{
+    font-size: 17px;
+    color:#fff;
+    font-family: 'Inconsolata',monospace;
+}
+
+
+.conteudo-video{
+    width:100%;
+    height: 190px;
+    display:flex;
+    justify-content: flex-end;
+}
+.video-img{
+    width:90px;
+    height:190px;
+    z-index: 10;
+}
+.video-img img{
+    width:100px;
+    margin-top: -20px;
+    margin-left: 13px;
+}
+.video-bloco{
+    width:188px;
+    height:105px;
+    margin-top: 95px;
+}
+.video-bloco video{
+    width:188px;
+    height:105px;
+    border: none;
+    outline: none;
+}
+
+
+.area-conteudo-2{
+    width: 100%;
+    height: 90vh;
+    display: none;
+    background-image: url('../img/bg/bg.jpg');
+}
+.area-transformacao{
+    width:300px;
+    height:90vh;
+}
+.transformacao-nome{
+    width: 100%;
+    height: 50px;
+}
+.transformacao-nome h1{
+    color:#fff;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.transformacoes{
+    width:100%;
+    height:500px;
+}
+.transformacoes-titulo{
+    width:100%;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.transformacoes-titulo h2{
+    margin: 0px;
+    padding:0px;
+    color:#fff;
+    font-size:19px;
+    font-family: 'Inconsolata',monospace;
+}
+.transforma{
+    width:220px;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+.transforma-bloco{
+    width: 90px;
+    height:70px;
+    background-color: rgba(0, 0, 0, 0.329);
+    margin: 5px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid rgba(252, 252, 252, 0.041)
+}
+.transforma-bloco img{
+    width:90px;
+    height:70px;
+}
+
+.area-imagem{
+    width:300px;
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-imagem img{
+    width:350px;
+    max-height:450px;
+}
+.area-mine-descri{
+    flex:1;
+    height:90vh;
+}
+.mine-descri{
+    width: 600px;
+    height:200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.mine-descri p{
+    font-size: 20px;
+    color:#fff;
+    font-family: 'Inconsolata',monospace;
+    text-shadow: 5px 5px 10px #000;
+}
+
+
+
+
+.area-conteudo-3{
+    width: 100%;
+    height: 90vh;
+    display: none;
+    background-image: url('../img/bg/bg.jpg');
+}
+.area-historia{
+    width:90%;
+    height:90vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.historia-img{
+    width:45%;
+    height: 90vh;
+    display:flex;
+    justify-content: center;
+}
+.historia-texto{
+    width:55%;
+}
+.historia-texto p{
+    font-size:20px;
+    color:#fff;
+    padding: 50px 10px;
+    font-family: 'Inconsolata',monospace;
+    text-shadow: 5px 5px 10px #000;
+}
